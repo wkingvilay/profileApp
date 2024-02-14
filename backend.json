@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "ALYSHGdetoWCCPeIfIqd07HQowS2": {
+      "type": "object",
+      "properties": {
+        "Char": {"type": "string"},
+        "DoB": {"type": "string", "format": "date"},
+        "Gender": {"type": "string", "enum": ["Male", "Female", "Other"]},
+        "image": {"type": "string", "format": "uri"},
+        "name": {"type": "string"}
+      },
+      "required": ["Char", "DoB", "Gender", "image", "name"],
+      "additionalProperties": false
+    },
+    "highScore": {"type": "integer"},
+    "q5cXisMwdmXBpionjVB3q3MW2JI2": {
+      "type": "object",
+      "properties": {
+        "Char": {"type": "string"},
+        "DoB": {"type": "string", "format": "date"},
+        "Gender": {"type": "string", "enum": ["Male", "Female", "Other"]},
+        "image": {"type": "string", "format": "uri"},
+        "name": {"type": "string"}
+      },
+      "required": ["Char", "DoB", "Gender", "image", "name"],
+      "additionalProperties": false
+    }
+  },
+  "required": ["ALYSHGdetoWCCPeIfIqd07HQowS2", "highScore", "q5cXisMwdmXBpionjVB3q3MW2JI2"],
+  "additionalProperties": false
+}
