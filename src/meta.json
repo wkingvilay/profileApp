@@ -33,8 +33,8 @@
                     "createdAt": "2024-02-12T20:27:29.328Z",
                     "updatedAt": "2024-02-12T20:27:29.328Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65a6efce59b6406a48db8dc6/projects/65ca79a495276b3c15078905/assets/65ca7f3195276b3c1508d1ef?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240214%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240214T032312Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=75505dc223c27b1d133e0f3192d701e01d059145219a6b0e961331821d8aeb90b5622a98a25ce394efde9737e30a1401a21be4db13bc8b5a64458cd6af98319bdfa50787dcd6f37012ee662ebabc0292d2b244a1d0a917fbc478547569a428fff052b0fcefba2a2a365ebcdfaab9845d393baf00a2dd6140f4730e8d17d2756b3ba7d3b980243b305106b131f08017dc23925d513a137094828850bbbcae02e9d6fb0517700001dd590f18b2483658de93f714255acf3f0b919cfa25eb00361ba5769abb39d8be4b2e5a80d0da5113a523cdf79edb29f2f33278e97492a612fe1f1e9727f471b5b07692b514b35b8d4ffc1276596acffe50f95dcf1d4c8d7760",
-                    "signedUrlExpirationTime": 1708053792559
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65a6efce59b6406a48db8dc6/projects/65ca79a495276b3c15078905/assets/65ca7f3195276b3c1508d1ef?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240226%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240226T192434Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=71e2b8019975363d1a0283ec5704a900d89888b866195b3e1aa817762539bca8041e337d4a8ba85d7e30143ddc6c4c6b151380f8a9d9fe1cccf80862cd8ca6c3814efc51d62d497ef13476ba5c3455813f8e7db3740b8099296b5c68002a9b38f49deeecc218d1de3763bda73eea89b3fdb714e498e744ae20b18f74cd72444121bec13d6126312b90f677f5ab74d6d00d27e18e6f5d6ca4e582755fcd94161639ba9707d962951d5576f831274ec2b36696934d5c043e8c6d04fef7321fc64f9329cf2b213d9e138f331833e1bee1dcbd9a9e69f23029f162dd40ee99f7a7f2c8775ef3a598dfa27f1394022c95c1cd0fdde9bb2506404cceae89de7303d695",
+                    "signedUrlExpirationTime": 1709148274921
                 }
             },
             "backendUpgradeVersion": 24,
@@ -55,6 +55,10 @@
                     "permissions": {
                         "android": [],
                         "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
                     }
                 },
                 "96ff0ecd-5794-4969-bbcf-86034312f824": {
@@ -156,10 +160,7 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSCameraUsageDescription": "",
-                            "NSPhotoLibraryUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -205,10 +206,7 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSCameraUsageDescription": "",
-                            "NSPhotoLibraryUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -223,7 +221,7 @@
                 "admobUserTrackingUsageDescription": null,
                 "__typename": "ProjectSettings"
             },
-            "hasAdmob": false,
+            "hasAdmob": true,
             "hasBluetoothLowEnergy": null,
             "hasPushNotification": false,
             "hasAssistant": null,
@@ -232,7 +230,7 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "0",
+            "totalCopy": "1",
             "totalStar": "0",
             "starAction": "star",
             "variables": {
